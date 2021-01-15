@@ -1,4 +1,4 @@
 import re
 def song_decoder(song):
     nstr=re.sub('WUB',' ',song)    
-    return ' '.join((nstr.strip(' ')).split())
+    return ' '.join(nstr.split())
