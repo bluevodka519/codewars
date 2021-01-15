@@ -6,7 +6,6 @@ def find_outlier(integers):
                 return integers[0]
                 break
             elif integers[i+1]%2 == integers[0]%2:
-                return integers[i]
                 break
         else:
             i +=1
